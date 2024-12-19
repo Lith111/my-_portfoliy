@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style of bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- my style  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- icones -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="https://unpk=g.com/aos@next/dist/aos.css" />
+  <title>laith sorki</title>
+</head>
+<body >
+<nav class="navbar navbar-expand-lg navbar-light bg-light  navbear-js">
+  <div class="container-fluid ">
+    <a class="navbar-brand text-primary" href="#">lAITH SORKI</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active " aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">about</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link " href="#" >
+          contact
+          </a>
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">blog</a>
+          </li>
+      </ul>
+      <form class="d-flex">
+        <button type="button" class="btn btn-dark h-100 " id="mode-dark" onclick="mode()">Dark</button>
+        <input class="form-control me-2 ms-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-primary" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="home" id="home">
+  <div class="container">
+    <div class="row justify-content-center ">
+      <div class="col-lg-6 col-12  img-style ">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/Home1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Home 2.jpg" class="d-block w-100" alt="..." style="height:500px ;">
+            </div>
+            <div class="carousel-item">
+              <img src="images/Home 3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-10 col-lg-6 d-flex">
+        <div class="titly m-4 ">
+          <div class="h1">i am <span style="color:var(--main-color)"> laith sorki </span></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore corrupti vel voluptatum porro corporis dolore praesentium velit incidunt repudiandae, enim unde, dolores ducimus asperiores error. Nulla recusandae ratione asperiores non.</p>
+        <button class="myBtn">about me</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="about" id="about">
+  <div class="container">
+    <div class="row justify-content-center mb-4"> <h2 class="col-12 text-center" style =" font-size: 40px"> <span class="text-primary"> about </span> me</h2> </div>
+    <div class="row justify-content-center ">
+      <div class="col-10 col-md-5 card card-style"data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
+        <h3 class="">skill me</h3>
+        <div class="item">
+          <h4> <span style="float:left;">html</span> <span style="float :right;" class="data" data-number="90"> 0</span></h4>
+          <div class="progress  pro-about" >
+            <div class="progress-bar spans" role="progressbar"  style="width:0%;" data-width="90%"></div>
+          </div>
+        </div>
+        <div class="item">
+          <h4> <span style="float:left;">css</span> <span style="float :right;" class="data" data-number="80"> 0%</span></h4>
+          <div class="progress  pro-about" >
+              <div class="progress-bar spans "style="width:0%;"data-width="80%"></div>
+            </div>
+          </div>
+          <div class="item">
+            <h4> <span style="float:left;">js</span> <span style="float :right;" class="data" data-number="70"> 0%</span></h4>
+              <div class="progress  pro-about" >
+                <div class="progress-bar spans" data-width ="70%" style="width: 0%;"></div>
+              </div>
+            </div>
+            <div class="item">
+              <h4> <span style="float:left;">bootstrap</span> <span style="float :right;"  class="data" data-number="60"> 60%</span></h4>
+                <div class="progress  pro-about" >
+                  <div class="progress-bar spans" role="progressbar" style="width:0%;" data-width="60%"></div>
+                </div>
+              </div>
+      </div>
+        <div class="col-10 col-md-5 card card-style"data-aos="fade-left" data-aos-duration="500" data-aos-once="true" >
+          <h3 class="">Professional Skills</h3>
+          <div class="item">
+          <h4> <span style="float:left;">Web Design</span> <span style="float :right;" class="data" data-number="90"> 90%</span></h4>
+            <div class="progress  pro-about" >
+              <div class="progress-bar spans" role="progressbar"  style="width:0%;" data-width="90%"></div>
+            </div>
+          </div>
+          <div class="item">
+            <h4> <span style="float:left;">Web Develper</span> <span style="float :right;"  class="data" data-number="80"> 80%</span></h4>
+              <div class="progress  pro-about" >
+                <div class="progress-bar spans" style="width:0%;" data-width="80%"></div>
+              </div>
+            </div>
+            <div class="item">
+              <h4> <span style="float:left;">Graphic Design</span> <span style="float :right;" class="data" data-number="70"> 0%</span></h4>
+                <div class="progress  pro-about" >
+                  <div class="progress-bar spans" style="width:0%;" data-width="70%"></div>
+                </div>
+              </div>
+              <div class="item">
+                <h4> <span style="float:left;">Seo Marketing </span> <span style="float :right;" class="data" data-number="60"> 0%</span></h4>
+                  <div class="progress  pro-about" >
+                    <div class="progress-bar spans"  style="width:0%;" data-width="60%"></div>
+                  </div>
+                </div>
+      </div>
+    </div>
+    <div class="row justify-content-center ">
+      <div class="col-10 col-md-5 card card-style"data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
+        <div class="item"><span class="rotes"></span>
+          <div class="text-about">
+          <h3>Front End Development </h3>
+         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptatibus, nobis minima  </p> </div>
+        </div>
+        <div class="item"><span class="rotes"></span>
+          <div class="text-about">
+          <h3>Front End Development </h3>
+         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptatibus, nobis minima </p> </div>
+        </div>
+        <div class="item"><span class="rotes"></span>
+          <div class="text-about">
+          <h3>Front End Development </h3>
+         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptatibus, nobis minima  </p> </div>
+        </div>
+      </div>
+      <div class="col-10 col-md-5 card card-style" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
+        <div class="item"><span class="rotes"></span>
+          <div class="text-about">
+          <h3>web Development </h3>
+          <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum totam accusamus  </p>
+        </div>
+        </div>
+        <div class="item"><span class="rotes"></span>
+          <div class="text-about">
+          <h3> web Development </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum totam accusamus</p>
+        </div>
+        </div>
+        <div class="item"><span class="rotes"></span>
+          <div class="text-about">
+          <h3>web Development </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum totam accusamus </p>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+<div class="services">
+  <div class="container">
+    <div class="row justify-content-center mb-4"> <h2 class="col-12 text-center" style =" font-size: 40px"> <span class="text-primary"> my </span> Services</h2> </div>
+    <div class="row justify-content-center">
+    <div class="col-10 col-md-3 card card-ser" data-aos="fade-down-right" data-aos-duration="500" data-aos-once="true">
+      <div style="margin-right:96%; margin-top:6px; font-size:20px;"> 1 </div >
+      <div class="ovrite"> </div>
+      <img src="images/s1.png" alt="" style="width:20% ;">
+      <h3>Seo Marketing</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ullam quia nam officia rem voluptatibus ipsam dolores vero iusto libero nulla</p>
+    </div>
+    <div class="col-10 col-md-3 card card-ser"data-aos="fade-down" data-aos-duration="500" data-aos-once="true">
+      <div style="margin-right:96%; margin-top:6px; font-size:20px;"> 2 </div >
+      <div class="ovrite"> </div>
+      <img src="images/s2.png" alt="" style="width:20% ;">
+      <h3>Seo Marketing</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ullam quia nam officia rem voluptatibus ipsam dolores vero iusto libero nulla</p>
+    </div>
+    <div class="col-10 col-md-3  card card-ser"data-aos="fade-down-left" data-aos-duration="500" data-aos-once="true">
+      <div style="margin-right:96%; margin-top:6px; font-size:20px;"> 3 </div >
+      <div class="ovrite"> </div>
+      <img src="images/s3.png" alt="" style="width:20% ;">
+      <h3>Seo Marketing</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ullam quia nam officia rem voluptatibus ipsam dolores vero iusto libero nulla</p>
+    </div>
+    </div>
+    <div class="row justify-content-center">
+    <div class="col-10 col-md-3 card card-ser"data-aos="fade-up-right" data-aos-duration="500" data-aos-once="true">
+      <div style="margin-right:96%; margin-top:6px; font-size:20px;"> 4 </div >
+      <div class="ovrite"> </div>
+      <img src="images/s4.png" alt="" style="width:20% ;">
+      <h3>Seo Marketing</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ullam quia nam officia rem voluptatibus ipsam dolores vero iusto libero nulla</p>
+    </div>
+    <div class="col-10 col-md-3 card card-ser"data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
+      <div style="margin-right:96%; margin-top:6px; font-size:20px;"> 5 </div >
+      <div class="ovrite"> </div>
+      <img src="images/s5.png" alt="" style="width:20% ;">
+      <h3>Seo Marketing</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ullam quia nam officia rem voluptatibus ipsam dolores vero iusto libero nulla</p>
+    </div>
+    <div class="col-10 col-md-3 card card-ser"data-aos="fade-up-left" data-aos-duration="500" data-aos-once="true">
+      <div style="margin-right:96%; margin-top:6px; font-size:20px;"> 6 </div >
+      <div class="ovrite"> </div>
+      <img src="images/s6.png" alt="" style="width:20% ;">
+      <h3>Seo Marketing</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae ullam quia nam officia rem voluptatibus ipsam dolores vero iusto libero nulla</p>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="Portfolio" id="Portfolio">
+  <div class="container">
+    <div class="row justify-content-center mb-4"> <h2 class="col-12 text-center" style =" font-size: 40px"> <span class="text-primary"> my </span> Portfolio</h2> </div>
+    <div class="row ">
+      <div class=" col-1 col-md-3"></div>
+    <div class=" col btn btn-pro all "> All</div>
+    <div class=" col btn btn-pro wibsite"> wibsite</div>
+    <div class="col btn btn-pro code"> code</div>
+    <div class="col btn btn-pro Design"> Design</div>
+    <div class="col-1 col-md-3"></div>
+
+  </div>
+  <div class="row justifly-content-center por-row">
+   <!-- in javaScript code -->
+  </div>
+</div>
+</div>
+<div class="Blog">
+  <div class="container">
+    <div class="row justify-content-center m-5"> <h2 class="col-12 text-center" style =" font-size: 40px"> <span class="text-primary"> my </span> blog</h2> </div>
+     <div class=" row justify-content-center" id="rowBlog">
+       
+     </div>
+  </div>
+</div>
+<div class="contect">
+  <div class="container">
+  <div class="row justify-content-center m-5"> <h2 class="col-12 text-center" style =" font-size: 40px"> <span class="text-primary"> my </span> contact</h2> </div>
+   <div class="row justify-content-md-center">
+     <div class="col-md-3">
+       <div class="card card-cont">
+        <div class="icons"id="laith">
+          <i class="fas fa-phone"></i>
+        </div>
+        <h3>phone</h3>
+        <p>9639-6532-9661</p>
+       </div>
+       </div>
+       <div class="col-md-3">
+        <div class="card card-cont">
+          <div class="icons">
+            <i class="fas fa-envelope"></i>
+                    </div>
+          <h3> my email</h3>
+          <p>lith.sorke@gmail.com</p>
+         </div>
+       </div>
+       <div class="col-md-3">
+        <div class="card card-cont">
+          <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h3>myaddress</h3>
+          <p>9639-6532-9661</p>
+         </div>
+       </div>
+     </div>
+     <div class="card map">
+     <div class="row row-cont ">
+     <div class=" col-6 card-cont-map" >
+          <div class="card-body">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Name</label>
+              <input type="text" class="form-control"  placeholder="Enter your All name">
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label">sbject</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="what's your need">
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label">email</label>
+              <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Exambil@email.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            </div>
+          </div>
+          <div class="col-5 card-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106456.52297209851!2d36.21285530973541!3d33.50745579458413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e6dc413cc6a7%3A0x6b9f66ebd1e394f2!2sDamascus%2C%20Syria!5e0!3m2!1sen!2s!4v1652875457706!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        </div>
+      </div>
+  </div>
+  <footer >
+    <div class="h1"> laith sorki <span class="text-danger">is king</span></div>
+  </footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+<script src="js/all.min.js"></script>
+ <script src="js/script.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
